@@ -1,9 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<div class="row mt-5 d-flex align-items-center justify-content-center" style="height: 500px">
-<div class="col-md-4"></div>
-  <div class="col-md-4">
     <h3 class="ms-2 text-muted text-capitalize">{{room_name}}</h3>
     <div style="border-radius: 30px;" class="border p-3">
       <div id="chat-messages" style="max-height: 400px; overflow-y: scroll;">
@@ -20,9 +17,6 @@
         <a class="btn btn-primary rounded-pill" id="chat-message-submit">Send</a>
       </div>
     </div>
-  </div>
-  <div class="col-md-4"></div>
-</div>
 {{ room_name|json_script:"json-roomname" }}
 {{ username|json_script:"json-username" }}
 <script src="{% static 'room.js' %}"></script>

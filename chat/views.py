@@ -8,7 +8,7 @@ def index(request):
 
 
 def room(request, room_name):
-    username = request.GET.get('username', 'Anonymous')
+    username = request.GET.get('t', 'Anonymous')
     messages = Message.objects.filter(room=room_name).all()
     context = {
         'room_name': room_name,

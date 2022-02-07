@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'chat',
     'channels',
+    'accounts'
 ]
 
 MIDDLEWARE = [
@@ -94,6 +95,9 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+AUTH_USER_MODEL = 'accounts.user'
+
+
 # Internationalization
 
 LANGUAGE_CODE = 'en-us'
@@ -110,6 +114,13 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
-# Default primary key field type
+# directory that we want to store uploaded files
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
+# Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# login_required decorator will redirect user to this Url
+#LOGIN_URL = 'accounts:user_login'
