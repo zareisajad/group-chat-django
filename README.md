@@ -1,4 +1,5 @@
 # Django Chat Application
+![Peek 2022-02-08 17-14](https://user-images.githubusercontent.com/71011395/152999513-f84d4186-33d0-4ca0-9df1-b70d72727b4c.gif)
 a simple chat built with Django, Django-Channels and Redis. user can create account, enter name of a group and join it to chat with others.
 
 ## Used in this app:
