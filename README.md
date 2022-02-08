@@ -21,7 +21,6 @@ a simple chat built with Django, Django-Channels and Redis.
 9. you should be able to open this address now: http://127.0.0.1:8000/
 
 ## To-Do:
-- [ ] implement one-to-one private chat
 - [ ] show users profile, photo, username and chat btn
 - [ ] display user public-information
 - [ ] edit profile
