@@ -9,7 +9,7 @@ a simple chat built with Django, Django-Channels and Redis.
 - bootstrap
 - sqlite3 database
 
-## How to run this app:
+## Run this app:
 1. clone or download the project.
 2. change directory to ``` chat-app-django```
 3. make sure you have ``python3``, ```pip``` and ```virtualenv``` installed in your machine.
