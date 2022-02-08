@@ -1,5 +1,5 @@
 # Django Chat Application
-a simple chat built with Django, Django-Channels and Redis.
+a simple chat built with Django, Django-Channels and Redis. user can create account, enter name of a group and join it to chat with others.
 
 ## Used in this app:
 - Python3
@@ -19,8 +19,3 @@ a simple chat built with Django, Django-Channels and Redis.
 7. databse migrate: ```python manage.py migrate```
 8. run the server: ```python manage.py runserver```
 9. you should be able to open this address now: http://127.0.0.1:8000/
-
-## To-Do:
-- [ ] show users profile, photo, username and chat btn
-- [ ] display user public-information
-- [ ] edit profile
