@@ -2,12 +2,12 @@
 a simple chat built with Django, Django-Channels and Redis.
 
 ## Used in this app:
-- python3
-- django
-- Redis
-- django-channels
-- bootstrap
-- sqlite3 database
+- Python3
+- Django
+- [Redis](https://redis.io)
+- [Django Channels](https://channels.readthedocs.io/en/stable/)
+- Bootstrap
+- Sqlite3
 
 ## Run this app:
 1. clone or download the project.
